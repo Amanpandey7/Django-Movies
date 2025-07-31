@@ -1,10 +1,11 @@
 from django.shortcuts import render
 from .models import Movie
+
+
 # Create your views here.
 
 def index(request):
     search_term = request.GET.get('search')
-
     if search_term:
         movies = Movie.objects.filter(name__icontains=search_term)
 
