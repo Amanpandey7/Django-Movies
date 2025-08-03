@@ -1,3 +1,4 @@
+See this project in action on PythonAnywhere: https://amanpandey7.pythonanywhere.com/movies/
 # Django-Movies
 A movie store website developed using Django
 
